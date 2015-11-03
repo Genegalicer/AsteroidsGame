@@ -7,7 +7,7 @@ public void draw()
 {
   //your code here
 }
-class SpaceShip //extends Floater  
+class SpaceShip extends Floater  
 {   
     //your code here
 }
@@ -27,7 +27,7 @@ abstract class Floater //Do NOT modify the Floater class! Make changes in the Sp
   abstract public void setDirectionX(double x);   
   abstract public double getDirectionX();   
   abstract public void setDirectionY(double y);   
-  abstract public double getDirectionY();   
+  abstract public d/ouble getDirectionY();   
   abstract public void setPointDirection(int degrees);   
   abstract public double getPointDirection(); 
 
