@@ -10,7 +10,7 @@ boolean wIsPressed, aIsPressed, dIsPressed, sIsPressed, spaceIsPressed;
 ;
 public void setup() 
 {
-  size(500, 500);
+  size(700, 700);
   for (int i = 0; i<galaxy.length; i++)
   {
     galaxy[i] = new Star();
