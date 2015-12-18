@@ -322,8 +322,8 @@ class Asteroid extends Floater
   public Asteroid()
   {
     corners = 6;
-    int[] aXs = {(int)25,(int)-25,(int)25,(int)-25,(int)-25,(int)25};
-    int[] aYs = {(int)-25,(int)25,(int)-25,(int)25,(int)-25,(int)25};
+    int[] aXs = {25,-25,25,-25,-25,25};
+    int[] aYs = {-25,25,-25,25,-25,25};
     xCorners = aXs;
     yCorners = aYs;
     //add in myDirectionX and myDirectionY in order to move
